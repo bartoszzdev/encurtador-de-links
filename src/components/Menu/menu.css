@@ -1,0 +1,19 @@
+.links-btn {
+    position: absolute;
+    top: 20px;
+    right: 3%;
+    padding: 0 30px;
+    height: 46px;
+    background: #fff;
+    color: #132740;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.7s;
+}
+
+.links-btn:hover {
+    transform: scale(1.05);
+}
