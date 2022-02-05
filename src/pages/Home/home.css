@@ -4,8 +4,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     color: #fff;
+    margin-top: 45px
 }
 
 .logo {
@@ -16,7 +16,7 @@
 }
 
 .logo img {
-    width: 160px
+    width: 150px
 }
 
 .logo h1 {
@@ -79,7 +79,7 @@
     width: 100%;
     height: 46px;
     margin-top: 17px;
-    margin-bottom: 110px;
+/*     margin-bottom: 110px; */
     background: #fff;
     color: #132740;
     font-size: 1.1rem;

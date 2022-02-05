@@ -24,4 +24,11 @@ export async function saveLinks(key, newLink) {
     console.log('Link salvo no storage')
 }
 
-//Deletando link do local storage 
+//Deletando link no local storage 
+export function deleteLink(links, id) {
+    let myLinks = links.filter(link => link.id !== id)
+
+    localStorage.setItem('@links-encurtado', JSON.stringify(myLinks))
+
+    return myLinks
+}
